@@ -7,6 +7,7 @@ package com.solutions;
  */
 public class StringtoInteger {
 	public int myAtoi(String str) {
+		if(str == null || str.length() == 0) return 0;
 		int sign = 1, base = 0, i = 0;
 	    while (str.charAt(i) == ' ') { i++; }
 	    if (str.charAt(i) == '-' || str.charAt(i) == '+') {
@@ -23,6 +24,6 @@ public class StringtoInteger {
     }
 	public static void main(String[] args) {
 		StringtoInteger atoi = new StringtoInteger();
-		System.out.println(atoi.myAtoi("-2147483648"));
+		System.out.println(atoi.myAtoi(""));
 	}
 }

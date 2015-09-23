@@ -1,2 +1,3 @@
 # LeetCode-OJ
-My Java solutions in LeetCode Online Judge
+
+My Java solutions for [LeetCode Online Judge](https://leetcode.com/).

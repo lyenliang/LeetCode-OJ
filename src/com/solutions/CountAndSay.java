@@ -1,7 +1,7 @@
 package com.solutions;
 
 /**
- * @author lyeliang
+ * @author lyenliang
  *
  */
 public class CountAndSay {
@@ -17,9 +17,6 @@ public class CountAndSay {
     }
 	
 	private String subCountAndSay(String in) {
-		if(in.equals("1")) {
-			return "11";
-		}
 		StringBuilder result = new StringBuilder("");
 		int i = 1;
 		int count = 1;
